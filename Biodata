@@ -1,0 +1,14 @@
+//Write a program in C to take the first character of name,birth year user and display the details. While displaying the details, display the age of the user.
+#include<stdio.h>
+int main()
+{
+int by;
+char n;
+printf("Enter the first character of name:\n");
+scanf("%c",&n);
+printf("Enter the birth year:\n");
+scanf("%d",&by);
+printf("First character of name:%c\n",n);
+printf("Birth year:%d\n",by);
+printf("Age:%d\n",2023-by);
+}
