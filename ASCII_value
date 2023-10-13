@@ -1,0 +1,9 @@
+//Write a program to print the ASCII value of any character.
+#include<stdio.h>
+int main()
+{
+    char n;
+    printf("Enter value=\n");
+    scanf("%c",&n);
+    printf("ASCII value of %c is %d\n",n,n);
+}
